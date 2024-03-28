@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+
+.squares {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
